@@ -1,0 +1,98 @@
+{
+    "name": "MulitplayerControlls",
+    "maps": [
+        {
+            "name": "Players",
+            "id": "fa1359e1-aafb-49ce-a2e0-47a7f4993104",
+            "actions": [
+                {
+                    "name": "Player 1 Move",
+                    "type": "Value",
+                    "id": "1bee145a-89ae-4190-9c7f-560a7651e97e",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Player 2 Move",
+                    "type": "Value",
+                    "id": "1ccf3b0b-5b52-4aa7-9e3a-640f7745a00c",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "WS",
+                    "id": "7ecd523b-d806-4f8c-b77c-60cdeaaecd5c",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player 1 Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "68392e33-ced8-4e77-b1ac-d72a1ab3161c",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player 1 Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "cf3e0f00-d8a0-48ae-8482-34c793e18447",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player 1 Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Arrows",
+                    "id": "4004e6c7-3e52-4040-a36e-dd332d113ea7",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player 2 Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "5736fcee-5153-4b67-9a3c-003df92cd614",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player 2 Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "a598cd22-4795-4291-b11d-f8c99136d17f",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player 2 Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
